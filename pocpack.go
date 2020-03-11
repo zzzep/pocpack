@@ -5,7 +5,7 @@ type response struct {
 	message string
 }
 
-func main() response {
+func get() response {
 	r := response{true, "Funfa"}
 	return r
 }
