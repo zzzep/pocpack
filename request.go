@@ -1,16 +1,16 @@
 package pocpack
 
-type response struct {
+type Response struct {
 	success bool
 	message string
 }
 
-func get() response {
-	r := response{true, "Funfa"}
+func Get() Response {
+	r := Response{true, "Funfa"}
 	return r
 }
 
-func post() response {
-	r := response{false, "Não Funfa"}
+func Post() Response {
+	r := Response{false, "Não Funfa"}
 	return r
 }
