@@ -9,3 +9,8 @@ func get() response {
 	r := response{true, "Funfa"}
 	return r
 }
+
+func post() response {
+	r := response{false, "Não Funfa"}
+	return r
+}
